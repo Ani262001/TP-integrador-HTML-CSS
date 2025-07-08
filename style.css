@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+}
+.logo {
+  width: 11%;
+}
+header {
+  background-color: #ffd6e4;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 5vh;
+  box-shadow: 0px 0px 15px rgba(124, 124, 124, 0.796);
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1, 2rem;
+  line-height: 1, 6em;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.navegador ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 40px;
+}
+.navegador ul li {
+  display: inline-block;
+}
+.navegador ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: rgb(3, 1, 1);
+  transition: all 0.2s linear;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.navegador ul li a:hover {
+  background-color: rgba(204, 204, 204, 0.356);
+}
+.presentacion {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  padding-top: 10%;
+  align-items: center;
+  color: rgb(63, 85, 83);
+}
+.presentacion h1 {
+  color: #c75178;
+  font-size: 3rem;
+}
+.presentacion img {
+  width: 25%;
+}
+.btn-presentacion {
+  width: 50%;
+  height: 40px;
+  border-radius: 60px;
+  border: none;
+  background-color:  #c75178;
+  color: white;
+  cursor: pointer;
+}
+.btn-presentacion:hover {
+  background-color: rgb(255, 102, 196);
+}
+.mis_conocimientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  margin-top: 8%;
+}
+.mis_conocimientos h1 {
+  color: white;
+  text-shadow: 2px 2px 5px rgb(255, 22, 177);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.mis_conocimientos > p {
+  font-weight: bolder;
+  color: rgba(133, 128, 128, 0.875);
+  font-size: 95%;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+.container-cto p {
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px rgb(157, 157, 157);
+}
+.container-cto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+.container-cto > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.2s;
+  margin: 2%;
+  background-color: white;
+  width: 15vw;
+  border: 1px solid rgb(221, 223, 229);
+  border-radius: 5%;
+}
+.container-cto i {
+  font-size: 5rem;
+}
+.img-cto {
+  transition: all 300ms ease;
+  padding: 1rem;
+}
+.img-cto:hover {
+  color: rgb(255, 22, 177);
+  border: 1px double rgb(255, 22, 177);
+}
+.container-cita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(assets/sparkles-stars.gif);
+  background-size: cover;
+  padding: 5%;
+  height: 10%;
+  color: white;
+  margin-top: 10%;
+  border: 1px double rgb(175, 116, 116);
+  font-weight: bolder;
+}
+.container-cita i {
+  margin-bottom: 25px;
+  font-size: 5rem;
+  color: rgba(128, 128, 128, 0.349);
+  text-shadow: 2px 2px white;
+}
+.container-cita h3 {
+  margin-top: 10%;
+  font-weight: bolder;
+}
+.mi-proyecto img {
+  width: 70%;
+  height: 150px;
+}
+.container_proyecto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 10%;
+  transition: all 300ms ease;
+}
+.container_proyecto .mi-proyecto:hover{
+  border: 1px solid rgb(255, 22, 177);
+  color: rgb(255, 22, 177);
+  font-weight: 600;
+}
+.proyecto {
+  text-align: center;
+  padding: 20px;
+  color: rgba(133, 128, 128, 0.875);
+}
+.proyecto h1 {
+  color: white;
+  text-shadow: 2px 2px 5px rgb(255, 22, 177);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.mi-proyecto {
+  margin: 10px;
+  border-radius: 20px;
+  color: gray;
+  border: solid 1px rgb(224, 224, 224);
+  padding: 15px;
+  width: 240px;
+  height: 200px;
+  text-align: center;
+}
+.mi-proyecto a {
+  text-decoration: none;
+}
+.sec_contacto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+}
+.sec_contacto h1 {
+  text-align: center;
+  color:rgb(255, 22, 177) ;
+  box-shadow: 2px 2px 5px rgb(255, 22, 177);
+}
+.sec_contacto p {
+  margin: 5%;
+  color: rgba(133, 128, 128, 0.875);
+}
+.container-form {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.48);
+  border-radius: 5%;
+  width: 70%;
+  height: 50%;
+  box-shadow: 4px 13px 43px -14px rgba(230, 163, 230, 1);
+}
+.txt_form {
+  width: 40%;
+  height: 40%;
+  margin: 5%;
+}
+.txt_form div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 5%;
+}
+.txt_form div a {
+  text-decoration: none;
+  color: rgb(255, 102, 196);
+  margin: 2%;
+}
+.txt_form div i {
+  font-size: 1rem;
+}
+.txt_form div a:hover {
+  color: rgb(185, 116, 231);
+}
+.form_contacto {
+  color: rgb(255, 102, 196);
+  font-weight: bolder;
+  margin: 5%;
+  width: 50%;
+}
+input {
+  margin: 1%;
+  border-radius: 4%;
+  background-color: rgba(244, 89, 185, 0.266);
+  border: 2px rgba(244, 89, 185, 0.266);
+  width: 100%;
+  height: 100%;
+}
+input:focus{
+  outline: none;
+  border: solid 2px rgba(255, 22, 177, 0.784);
+}
+input[type="button"] {
+  margin-top: 10%;
+  width: 10rem;
+  height: 2rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 22, 177, 0.872);
+  font-size: 1.1rem;
+}
+input[type="button"] :hover {
+  background-color: rgb(255, 102, 196);
+}
+textarea {
+  border-radius: 4%;
+  border: rgba(244, 89, 185, 0.266) 2px solid;
+  background-color: rgba(244, 89, 185, 0.266);
+}
+textarea:focus {
+  outline: none;
+  border: solid 2px rgba(255, 22, 177, 0.784);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd6e4;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+  font-weight: 600;
+}
+.container-footer a {
+  display: inline-block;
+  margin: 7px;
+  background-color: white;
+  border-radius: 80px;
+  border: none;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 102, 196);
+  transition: all 300ms ease;
+}
+.container-footer a:hover {
+  color: rgba(18, 18, 184, 0.497);
+}
+
+@media (max-width: 1100px) {
+  header {
+    display: none;
+  }
+  .presentacion {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    text-align: center;
+  }
+  .presentacion img {
+    margin-top: 10%;
+    width: 50%;
+  }
+  .mis_conocimientos {
+    display: flex;
+    text-align: center;
+  }
+  .container-cto {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cto div {
+    width: 25vw;
+  }
+
+  .container-form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+  }
+  .txt_form {
+    margin: 0%;
+    width: 100%;
+  }
+  .form_contacto {
+    width: 80%;
+  }
+}
